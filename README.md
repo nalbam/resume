@@ -96,7 +96,7 @@ Karrot SRE / DevOps / AWS ML Hero
 
 ## 개인
 
-- **스마트포지 (2012.10-현재)** - [smartforge.kr](https://smartforge.kr)
+- **스마트포지 (2012.10-2020.00)** - [smartforge.kr](https://smartforge.kr)
   - 1인 게임 개발
   - Fly Drago - Flappy Bird 의 3D 버전
   - Outer Invaders - 스페이스 인베이더 3D 버전
@@ -128,8 +128,8 @@ Karrot SRE / DevOps / AWS ML Hero
 
 ## 대외
 
-- **당근마켓 (2021.12)** [쿠버네티스 멀티 클러스터에서 Addons를 관리하는 방법 | 당근마켓 SRE 밋업 2회](https://youtu.be/tqyj1klizCU)
-- **당근마켓 (2021.08)** [아마존 EKS 업그레이드 | 당근마켓 SRE 밋업 1회](https://youtu.be/4Q8It_UvIws)
+- **당근마켓 (2021.12)** [쿠버네티스 멀티 클러스터에서 Addons를 관리하는 방법 : 당근마켓 SRE 밋업 2회](https://youtu.be/tqyj1klizCU)
+- **당근마켓 (2021.08)** [아마존 EKS 업그레이드 : 당근마켓 SRE 밋업 1회](https://youtu.be/4Q8It_UvIws)
 - **[AWSKRUG] (2020.12)** [AWS Hero Talk - 유정열 당근마켓 엔지니어 :: AWS re:Invent Daily Recap (12월 3일)](https://youtu.be/Swz72QftVcU)
 - **[AWS Hero] (2020.11)** [AWS DeepRacer Hero 인터뷰 - 당근마켓 유정열님](https://aws.amazon.com/ko/blogs/korea/aws-deepracer-hero-jungyoul-yu/)
 - **[AWS Hero] (2020.10)** [AWS ML Hero - Jungyoul Yu](https://aws.amazon.com/ko/developer/community/heroes/jungyoul-yu/)
