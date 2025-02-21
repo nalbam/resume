@@ -96,6 +96,10 @@ Karrot SRE / DevOps / AWS ML Hero
 
 ## 개인
 
+- **AWS Colorful Navbar 크롬 확장 (2023.01)** - [aws-navbar-extension](https://chromewebstore.google.com/detail/aws-colorful-navbar/kgifmgnlchjjippdpkblbdlfidcpceme)
+  - AWS 콘솔 네비게이션 바 색상을 리전에 따라 변경
+  - [https://github.com/nalbam/aws-navbar-extension](https://github.com/nalbam/aws-navbar-extension)
+
 - **스마트포지 (2012.10-2020.00)** - [smartforge.kr](https://smartforge.kr)
   - 1인 게임 개발
   - Fly Drago - Flappy Bird 의 3D 버전
@@ -112,10 +116,11 @@ Karrot SRE / DevOps / AWS ML Hero
   - 사진의 EXIF 정보에서 위치정보를 추출하여 지도에 표시
   - Linux, Apache, PHP, Mysql, Sendmail, MongoDB, Amazon S3, Baas.io
 
-- **환율 변환 크롬 확장 프로그램 (2012.09)** - [currency-converter](https://chrome.google.com/webstore/detail/currency-converter/fhfdcaiaocdiakbpmjnagkbopcginped)
+- **환율 변환 크롬 확장 (2012.09)** - [currency-converter](https://chrome.google.com/webstore/detail/currency-converter/fhfdcaiaocdiakbpmjnagkbopcginped)
   - 야후 환율 정보 캐싱
   - 크롬 확장 프로그램으로 환율 변환
   - Linux, Apache, PHP, Mysql, Javascript
+  - [https://github.com/nalbam/currency-converter](https://github.com/nalbam/currency-converter)
 
 - **폴리라인 (2008.06-2011.02)** - [pholyline.com](http://pholyline.com)
   - 완벽한 여행의 기록
@@ -123,7 +128,6 @@ Karrot SRE / DevOps / AWS ML Hero
   - GPS 로거의 위치정보로 지도에 이동 경로를 표시
   - 사진의 시간정보를 이용하여 해당 시간의 위치에 매칭하여 표시
   - 소프트포지 프레임웍 기반으로 개발
-  - 퇴사 후 소스 삭제
   - Linux, Java, Apache, Tomcat, Mysql, Spring, XWork, iBatis, SiteMesh, Ant, SVN
 
 ## 대외
