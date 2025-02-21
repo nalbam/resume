@@ -143,10 +143,10 @@ Karrot SRE / DevOps / AWS ML Hero
 
 ## 기사
 
-- **[전자신문] (2009.09)** [MMS로 트위터에 사진 올린다](http://news.naver.com/main/read.nhn?mode=LSD&mid=sec&sid1=001&oid=030&aid=0002033891)
-- **[블로터] (2009.09)** [휴대폰 MMS로 트위터에 사진 올려요](https://www.bloter.net/news/articleView.html?idxno=6953)
-- **[AI타임즈] (2020.11)** [아마존 웹서비스, 10번째 히어로 한국인 선정...유정열 당근마켓 엔지니어](https://www.aitimes.com/news/articleView.html?idxno=133891)
 - **[테크M] (2024.08)** [쏟아지는 'AI 모델' 입맛대로 골라 쓰세요...AWS '베드록이 가장 쉬운 방법'](https://www.techm.kr/news/articleView.html?idxno=128723)
 - **[서울경제] (2024.08)** ["AWS, 생성형 AI 신기술 빠른 속도로 출시…고객사 편의성 높여"](https://www.sedaily.com/NewsView/2DD02BW2YA)
+- **[AI타임즈] (2020.11)** [아마존 웹서비스, 10번째 히어로 한국인 선정...유정열 당근마켓 엔지니어](https://www.aitimes.com/news/articleView.html?idxno=133891)
+- **[전자신문] (2009.09)** [MMS로 트위터에 사진 올린다](http://news.naver.com/main/read.nhn?mode=LSD&mid=sec&sid1=001&oid=030&aid=0002033891)
+- **[블로터] (2009.09)** [휴대폰 MMS로 트위터에 사진 올려요](https://www.bloter.net/news/articleView.html?idxno=6953)
 
 &copy; 2025
