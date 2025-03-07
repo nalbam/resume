@@ -11,7 +11,7 @@ Karrot SRE / DevOps / AWS ML Hero
 
 ## 회사
 
-- **당근마켓 (2020.08-현재)** - [www.daangn.com](https://www.daangn.com/)
+- **당근마켓 (2020.08-now)** - [www.daangn.com](https://www.daangn.com/)
   - DevOps Engineer / SRE
 
 - **메가존클라우드 (2019.09-2020.07)** - [www.megazone.com](https://www.megazone.com/)
@@ -96,9 +96,13 @@ Karrot SRE / DevOps / AWS ML Hero
 
 ## 개인
 
-- **AWS Colorful Navbar 크롬 확장 (2023.01)** - [aws-navbar-extension](https://chromewebstore.google.com/detail/aws-colorful-navbar/kgifmgnlchjjippdpkblbdlfidcpceme)
+- **AWS Colorful Navbar 크롬 확장 (2023.01-now)** - [aws-navbar-extension](https://chromewebstore.google.com/detail/aws-colorful-navbar/kgifmgnlchjjippdpkblbdlfidcpceme)
   - AWS 콘솔 네비게이션 바 색상을 리전에 따라 변경
   - [https://github.com/nalbam/aws-navbar-extension](https://github.com/nalbam/aws-navbar-extension)
+
+- **옵스프레소 (2019.09-now)** - [opspresso.com](https://opspresso.com)
+  - Brewing DevOps Excellence with Automation
+  - [https://github.com/opspresso](https://github.com/opspresso)
 
 - **스마트포지 (2012.10-2020.00)** - [smartforge.kr](https://smartforge.kr)
   - 1인 게임 개발
@@ -116,7 +120,7 @@ Karrot SRE / DevOps / AWS ML Hero
   - 사진의 EXIF 정보에서 위치정보를 추출하여 지도에 표시
   - Linux, Apache, PHP, Mysql, Sendmail, MongoDB, Amazon S3, Baas.io
 
-- **환율 변환 크롬 확장 (2012.09)** - [currency-converter](https://chrome.google.com/webstore/detail/currency-converter/fhfdcaiaocdiakbpmjnagkbopcginped)
+- **환율 변환 크롬 확장 (2012.09-2023.02)** - [currency-converter](https://chrome.google.com/webstore/detail/currency-converter/fhfdcaiaocdiakbpmjnagkbopcginped)
   - 야후 환율 정보 캐싱
   - 크롬 확장 프로그램으로 환율 변환
   - Linux, Apache, PHP, Mysql, Javascript
