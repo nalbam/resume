@@ -167,6 +167,9 @@ DevOps 및 SRE 전문가로 20년 이상의 경력을 보유하고 있으며, AW
 
 - **[AWSKRUG] (2025.03)** [AWSKRUG #AIEngineering 소모임 (2025년 3월 13일) 프롬프트 엔지니어링 핸즈온](https://www.meetup.com/awskrug/events/306528634/)
 - **[AWSKRUG] (2024.09)** [AWSKRUG #AIEngineering 소모임 (2024년 9월 25일) AWSKRUG Gurumi 구현 방법](https://www.meetup.com/awskrug/events/303205066/)
+- **[당근마켓] (2024.08)** [Daangni Bot with RAG](https://drive.google.com/file/d/1pv2q_XmwqcAK8myY85xvBXa2Nv_Qski6/view?usp=sharing)
+- **[인천테크노파크] (2023.10)** [From DevOps Engineer to AWS ML Hero - 20231006](https://drive.google.com/file/d/1hk9qyMuvtpBcAXUxWhx0offPkrvnKZe-/view?usp=sharing)
+- **[AWSKRUG] (2023.06)** [SlackBot With ChatGPT - 20230607](https://drive.google.com/file/d/1CJVm4npyHPj0p1MgbsXRRKPOBy5ikGz3/view?usp=sharing)
 - **[당근마켓] (2021.12)** [쿠버네티스 멀티 클러스터에서 Addons를 관리하는 방법 : 당근마켓 SRE 밋업 2회](https://youtu.be/tqyj1klizCU)
 - **[당근마켓] (2021.08)** [아마존 EKS 업그레이드 : 당근마켓 SRE 밋업 1회](https://youtu.be/4Q8It_UvIws)
 - **[AWSKRUG] (2020.12)** [AWS Hero Talk - AWS re:Invent Daily Recap](https://youtu.be/Swz72QftVcU)
