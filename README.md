@@ -181,6 +181,7 @@ DevOps 및 SRE 전문가로 20년 이상의 경력을 보유하고 있으며, AW
 
 ### AWS 클라우드 커뮤니티 기여
 
+- **COMMUNITY AWARD OWNERSHIP Winner** (2022.08) - AWS APAC Community Summit 2022
 - **AWS DeepRacer Hero 인터뷰** (2020.11) - [AWS DeepRacer Hero 인터뷰](https://aws.amazon.com/ko/blogs/korea/aws-deepracer-hero-jungyoul-yu/)
 - **AWS ML Hero** (2020.10) - [AWS ML Hero - Jungyoul Yu](https://aws.amazon.com/ko/developer/community/heroes/jungyoul-yu/)
 - AWS DeepRacer Championship 2020 파이널리스트
