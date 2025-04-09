@@ -165,8 +165,10 @@ DevOps 및 SRE 전문가로 20년 이상의 경력을 보유하고 있으며, AW
 
 ### 컨퍼런스 및 발표
 
-- **당근마켓 (2021.12)** [쿠버네티스 멀티 클러스터에서 Addons를 관리하는 방법 : 당근마켓 SRE 밋업 2회](https://youtu.be/tqyj1klizCU)
-- **당근마켓 (2021.08)** [아마존 EKS 업그레이드 : 당근마켓 SRE 밋업 1회](https://youtu.be/4Q8It_UvIws)
+- **[AWSKRUG] (2025.03)** [AWSKRUG #AIEngineering 소모임 (2025년 3월 13일) 프롬프트 엔지니어링 핸즈온](https://www.meetup.com/awskrug/events/306528634/)
+- **[AWSKRUG] (2024.09)** [AWSKRUG #AIEngineering 소모임 (2024년 9월 25일) AWSKRUG Gurumi 구현 방법](https://www.meetup.com/awskrug/events/303205066/)
+- **[당근마켓] (2021.12)** [쿠버네티스 멀티 클러스터에서 Addons를 관리하는 방법 : 당근마켓 SRE 밋업 2회](https://youtu.be/tqyj1klizCU)
+- **[당근마켓] (2021.08)** [아마존 EKS 업그레이드 : 당근마켓 SRE 밋업 1회](https://youtu.be/4Q8It_UvIws)
 - **[AWSKRUG] (2020.12)** [AWS Hero Talk - AWS re:Invent Daily Recap](https://youtu.be/Swz72QftVcU)
 - **[AWSKRUG] (2020.02)** [자율 주행 레이싱 - 딥레이서 리그에 도전하세요 :: AWS Community Day 2020](https://youtu.be/BdJKSpothPk)
 - **[AWSKRUG] (2019.02)** [RoboMaker로 DeepRacer 자율주행차 만들기 :: AWS Community Day 2019](https://youtu.be/v5GBUpVkZbY)
@@ -175,8 +177,8 @@ DevOps 및 SRE 전문가로 20년 이상의 경력을 보유하고 있으며, AW
 
 ### AWS 클라우드 커뮤니티 기여
 
+- **AWS DeepRacer Hero 인터뷰** (2020.11) - [AWS DeepRacer Hero 인터뷰](https://aws.amazon.com/ko/blogs/korea/aws-deepracer-hero-jungyoul-yu/)
 - **AWS ML Hero** (2020.10) - [AWS ML Hero - Jungyoul Yu](https://aws.amazon.com/ko/developer/community/heroes/jungyoul-yu/)
-- **AWS DeepRacer Hero** (2020.11) - [AWS DeepRacer Hero 인터뷰](https://aws.amazon.com/ko/blogs/korea/aws-deepracer-hero-jungyoul-yu/)
 - AWS DeepRacer Championship 2020 파이널리스트
 - AWS DeepRacer Championship 2019 파이널리스트
 - AWS DeepRacer 온라인 교육 :: AI Championship 2020
