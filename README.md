@@ -72,10 +72,6 @@ AWS ML Hero로 선정된 20년 경력의 DevOps/SRE 전문가입니다. AWS 클�
   * 실시간 모니터링 및 알림 시스템 구축으로 서비스 안정성 향상
   * 장애 발생 시 신속한 대응을 위한 프로세스 및 도구 개발
 
-* **DevOps 문화 확산**
-  * 개발팀과 운영팀 간의 효율적인 협업 체계 구축
-  * 지속적 통합 및 배포(CI/CD) 파이프라인 최적화
-
 ### **메가존클라우드** | DevOps Engineer / SRE / Solutions Architect
 #### *2019.09 - 2020.07* | [www.megazone.com](https://www.megazone.com/)
 
