@@ -178,6 +178,14 @@ AWS ML Hero로 선정된 20년 경력의 DevOps/SRE 전문가입니다. AWS 클�
 
 ## 🚀 개인 프로젝트 (Personal Projects)
 
+### **토스트 앱 (Toast App)**
+#### *2025.04 - 현재* | [app.toast.sh](https://app.toast.sh/)
+토스트로 더 빠르게 작업하세요: 자주 사용하는 앱, 웹사이트, 파일을 단 하나의 단축키로 실행하여 생산성을 높여보세요.
+
+* **핵심 기능**: 간단하고 직관적인 인터페이스와 강력한 기능을 제공합니다.
+* **전역 단축키**: 커스터마이징 가능한 단축키로 어디서든 토스트 팝업을 빠르게 실행할 수 있습니다.
+* **다양한 액션**: 명령 실행, URL 열기, 파일 실행, 키보드 단축키 사용, 스크립트 실행 등 다양한 작업을 수행할 수 있습니다.
+
 ### **AWS Colorful Navbar 크롬 확장**
 #### *2023.01 - 현재* | [Chrome Web Store](https://chromewebstore.google.com/detail/aws-colorful-navbar/kgifmgnlchjjippdpkblbdlfidcpceme)
 
