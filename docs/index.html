@@ -5,13 +5,41 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>유정열 (nalbam) - AWS ML Hero & Senior DevOps/SRE Engineer</title>
     <style>
+        :root {
+            --bg-color: #ffffff;
+            --text-color: #24292e;
+            --border-color: #e1e4e8;
+            --secondary-text: #586069;
+            --link-color: #0366d6;
+            --header-bg: #f6f8fa;
+            --shield-border: #e1e4e8;
+            --hr-bg: #e1e4e8;
+            --button-bg: #f0f0f0;
+            --button-hover: #e0e0e0;
+        }
+        
+        [data-theme="dark"] {
+            --bg-color: #0d1117;
+            --text-color: #c9d1d9;
+            --border-color: #30363d;
+            --secondary-text: #8b949e;
+            --link-color: #58a6ff;
+            --header-bg: #161b22;
+            --shield-border: #30363d;
+            --hr-bg: #30363d;
+            --button-bg: #21262d;
+            --button-hover: #30363d;
+        }
+        
         body {
             font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji";
             line-height: 1.6;
-            color: #24292e;
+            color: var(--text-color);
+            background-color: var(--bg-color);
             max-width: 800px;
             margin: 0 auto;
             padding: 20px;
+            transition: background-color 0.3s ease, color 0.3s ease;
         }
         h1, h2, h3, h4, h5, h6 {
             margin-top: 24px;
@@ -19,33 +47,101 @@
             font-weight: 600;
             line-height: 1.25;
         }
-        h1 { font-size: 2em; border-bottom: 1px solid #eaecef; padding-bottom: .3em; }
-        h2 { font-size: 1.5em; border-bottom: 1px solid #eaecef; padding-bottom: .3em; }
+        h1 { font-size: 2em; border-bottom: 1px solid var(--border-color); padding-bottom: .3em; }
+        h2 { font-size: 1.5em; border-bottom: 1px solid var(--border-color); padding-bottom: .3em; }
         h3 { font-size: 1.25em; }
-        a { color: #0366d6; text-decoration: none; }
+        a { color: var(--link-color); text-decoration: none; }
         a:hover { text-decoration: underline; }
         img { max-width: 100%; }
         ul { padding-left: 20px; }
         li { margin-bottom: 8px; }
-        .shields img { margin-right: 5px; margin-bottom: 5px; border: 1px solid #e1e4e8; border-radius: 4px; }
+        .shields img { margin-right: 5px; margin-bottom: 5px; border: 1px solid var(--shield-border); border-radius: 4px; }
         hr {
             height: .25em;
             padding: 0;
             margin: 24px 0;
-            background-color: #e1e4e8;
+            background-color: var(--hr-bg);
             border: 0;
         }
         .professional-summary, .key-skills, .professional-experience, .personal-projects, .community-contribution, .media-coverage {
             margin-bottom: 30px;
         }
         .job-title { font-weight: bold; }
-        .company-duration { font-style: italic; color: #586069; }
+        .company-duration { font-style: italic; color: var(--secondary-text); }
         .project-title { font-weight: bold; }
-        .project-duration { font-style: italic; color: #586069; }
+        .project-duration { font-style: italic; color: var(--secondary-text); }
         .skills-category { margin-top: 15px; margin-bottom: 10px; font-weight: bold; }
+        
+        /* Theme Switcher Styles */
+        .theme-switcher {
+            position: fixed;
+            top: 20px;
+            right: 20px;
+            display: flex;
+            gap: 5px;
+            background-color: var(--button-bg);
+            border-radius: 8px;
+            padding: 5px;
+            box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+            z-index: 1000;
+        }
+        
+        .theme-btn {
+            background: none;
+            border: none;
+            width: 35px;
+            height: 35px;
+            border-radius: 6px;
+            cursor: pointer;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            transition: background-color 0.2s ease;
+            color: var(--text-color);
+        }
+        
+        .theme-btn:hover {
+            background-color: var(--button-hover);
+        }
+        
+        .theme-btn.active {
+            background-color: var(--link-color);
+            color: #ffffff;
+        }
+        
+        .theme-btn svg {
+            width: 20px;
+            height: 20px;
+        }
+        
+        /* Mobile responsive */
+        @media (max-width: 768px) {
+            .theme-switcher {
+                top: 10px;
+                right: 10px;
+            }
+        }
     </style>
 </head>
 <body>
+    <!-- Theme Switcher -->
+    <div class="theme-switcher">
+        <button class="theme-btn" data-theme="light" title="라이트 모드" aria-label="라이트 모드">
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 3v1m0 16v1m9-9h-1M4 12H3m15.364 6.364l-.707-.707M6.343 6.343l-.707-.707m12.728 0l-.707.707M6.343 17.657l-.707.707M16 12a4 4 0 11-8 0 4 4 0 018 0z" />
+            </svg>
+        </button>
+        <button class="theme-btn" data-theme="dark" title="다크 모드" aria-label="다크 모드">
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M20.354 15.354A9 9 0 018.646 3.646 9.003 9.003 0 0012 21a9.003 9.003 0 008.354-5.646z" />
+            </svg>
+        </button>
+        <button class="theme-btn" data-theme="system" title="시스템 설정 따르기" aria-label="시스템 설정 따르기">
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9.75 17L9 20l-1 1h8l-1-1-.75-3M3 13h18M5 17h14a2 2 0 002-2V5a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" />
+            </svg>
+        </button>
+    </div>
     <header>
         <h1>유정열 (nalbam)</h1>
         <p>AWS ML Hero & Senior DevOps/SRE Engineer</p>
@@ -413,5 +509,84 @@
         <p>&copy; 2025 유정열 (nalbam)</p>
     </footer>
 
+    <script>
+        // Theme management
+        const themeManager = {
+            // Get system preference
+            getSystemTheme() {
+                return window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light';
+            },
+            
+            // Get current theme setting
+            getCurrentTheme() {
+                const savedTheme = localStorage.getItem('theme') || 'system';
+                if (savedTheme === 'system') {
+                    return this.getSystemTheme();
+                }
+                return savedTheme;
+            },
+            
+            // Get theme preference (what's saved)
+            getThemePreference() {
+                return localStorage.getItem('theme') || 'system';
+            },
+            
+            // Apply theme to document
+            applyTheme(theme) {
+                if (theme === 'dark') {
+                    document.documentElement.setAttribute('data-theme', 'dark');
+                } else {
+                    document.documentElement.removeAttribute('data-theme');
+                }
+            },
+            
+            // Update button states
+            updateButtons(preference) {
+                document.querySelectorAll('.theme-btn').forEach(btn => {
+                    btn.classList.toggle('active', btn.getAttribute('data-theme') === preference);
+                });
+            },
+            
+            // Set theme
+            setTheme(preference) {
+                localStorage.setItem('theme', preference);
+                const actualTheme = preference === 'system' ? this.getSystemTheme() : preference;
+                this.applyTheme(actualTheme);
+                this.updateButtons(preference);
+            },
+            
+            // Initialize
+            init() {
+                // Apply initial theme
+                const preference = this.getThemePreference();
+                const theme = this.getCurrentTheme();
+                this.applyTheme(theme);
+                this.updateButtons(preference);
+                
+                // Add click handlers to buttons
+                document.querySelectorAll('.theme-btn').forEach(btn => {
+                    btn.addEventListener('click', () => {
+                        const themePreference = btn.getAttribute('data-theme');
+                        this.setTheme(themePreference);
+                    });
+                });
+                
+                // Listen for system theme changes
+                window.matchMedia('(prefers-color-scheme: dark)').addEventListener('change', (e) => {
+                    const preference = this.getThemePreference();
+                    if (preference === 'system') {
+                        this.applyTheme(e.matches ? 'dark' : 'light');
+                    }
+                });
+            }
+        };
+        
+        // Initialize theme when DOM is loaded
+        if (document.readyState === 'loading') {
+            document.addEventListener('DOMContentLoaded', () => themeManager.init());
+        } else {
+            themeManager.init();
+        }
+    </script>
 </body>
 </html>
