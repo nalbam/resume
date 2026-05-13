@@ -445,6 +445,32 @@
         </div>
 
         <div>
+            <h3><span class="project-title">체온 알람 서비스 (Body Temperature Alarm)</span></h3>
+            <p class="project-duration"><em>2020.02 - 2020.06</em> | <a href="https://nalbam.github.io/2020/02/28/body-temperature-alarm-ko.html" target="_blank">v1 소개글</a> | <a href="https://nalbam.github.io/2020/06/19/body-temperature-alarm-v2.html" target="_blank">v2 소개글</a></p>
+            <p>COVID-19 확산 대응을 위해 열화상 카메라와 안면 인식을 결합하여 방문자의 체온을 측정하고 출입 기록을 관리하는 서비스입니다. 일정 온도 초과 시 Slack으로 알림을 전송하며, v2에서는 다중 위치 지원과 고해상도 열화상 카메라로 업그레이드했습니다.</p>
+            <ul>
+                <li><strong>v1</strong>: 라즈베리파이 + AMG8833(8x8) 열화상 카메라, AWS Rekognition 기반 안면 인식, DynamoDB 기록 저장, Slack 알림</li>
+                <li><strong>v2</strong>: 라즈베리파이 4 + FLIR Lepton 3.5 고해상도 열화상 카메라, 다중 위치 설치 지원, 방문자별 최근 1개월 방문 위치 추적</li>
+                <li><strong>웹 인터페이스</strong>: AWS Amplify 기반 대시보드에서 감지 기록 조회 및 미인식자(Unknown) 등록</li>
+                <li><a href="https://github.com/nalbam/rpi-doorman" target="_blank">GitHub (디바이스)</a> | <a href="https://github.com/nalbam/deeplens-doorman-backend" target="_blank">GitHub (백엔드)</a> | <a href="https://github.com/nalbam/doorman" target="_blank">GitHub (프론트엔드)</a> | <a href="https://github.com/nalbam/LeptonModule" target="_blank">GitHub (Lepton 모듈)</a></li>
+                <li>기술 스택: Raspberry Pi, Python, React, Serverless Framework, AWS (S3, Lambda, DynamoDB, Rekognition, Cognito, Amplify), Slack App</li>
+            </ul>
+        </div>
+
+        <div>
+            <h3><span class="project-title">딥레이서 타이머 (DeepRacer Timer)</span></h3>
+            <p class="project-duration"><em>2019.08</em> | <a href="https://nalbam.github.io/2019/11/07/deepracer-timer-ko.html" target="_blank">프로젝트 소개글</a></p>
+            <p>AWS re:Invent 2018에서 받은 AWS DeepRacer 차량의 랩타임 측정을 위해 개발한 타이머·리더보드 시스템입니다. 충돌 위험이 있는 레이저 센서 대신 압력 감지 센서를 활용해 안전하게 통과 시점을 감지하고, 자동으로 점수를 수집·제출합니다.</p>
+            <ul>
+                <li><strong>타이머</strong>: 라즈베리파이 GPIO + 압력 감지 센서(SEN0299)로 랩 시작/종료 감지, 마우스·키보드 조작 지원</li>
+                <li><strong>리더보드</strong>: Node.js 기반 웹 애플리케이션으로 실시간 순위 표시</li>
+                <li><strong>자동 제출</strong>: 측정된 기록을 자동으로 수집·집계하여 AWS DeepRacer League에 제출</li>
+                <li><a href="https://github.com/nalbam/deepracer-timer" target="_blank">GitHub (타이머)</a> | <a href="https://github.com/nalbam/deepracer-league" target="_blank">GitHub (리더보드)</a> | <a href="https://github.com/nalbam/deepracer-submit" target="_blank">GitHub (자동 제출)</a></li>
+                <li>기술 스택: Raspberry Pi, Node.js, GPIO, 압력 센서(SEN0299), RJ45</li>
+            </ul>
+        </div>
+
+        <div>
             <h3><span class="project-title">스마트포지</span></h3>
             <p class="project-duration"><em>2012.10 - 2020</em> | <a href="https://smartforge.opspresso.com" target="_blank">smartforge.kr</a></p>
             <p>독립 게임 개발자로 3D 모바일 게임을 개발했습니다.</p>
