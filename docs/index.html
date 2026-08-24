@@ -426,9 +426,34 @@
         <h2>🚀 개인 프로젝트 (Personal Projects)</h2>
 
         <div>
+            <h3><span class="project-title">romty</span></h3>
+            <p class="project-duration"><em>2026.08 - 현재</em> | <a href="https://romty.dev" target="_blank">romty.dev</a></p>
+            <p>TUI를 닫아도 셸 세션이 살아있는 터미널 워크스페이스 매니저입니다. 분리된 데몬이 셸 PTY를 소유하기 때문에 창을 닫아도 모든 프로세스가 그대로 유지되며, 다시 열면 재연결하여 놓친 출력을 재생합니다.</p>
+            <ul>
+                <li><strong>분리형 데몬</strong>: 데몬이 PTY를 소유하여 TUI 종료 후에도 프로세스 유지, 재접속 시 놓친 출력 재생</li>
+                <li><strong>프로젝트 워크스페이스</strong>: 루트 디렉터리와 하위 디렉터리를 프로젝트로 묶고 각 프로젝트에 터미널 탭 제공 (10,000줄 스크롤백)</li>
+                <li><strong>IME 독립 조작</strong>: 입력기 상태와 무관한 펑션키 기반 인터페이스, 마우스 선택은 호스트 터미널에 위임</li>
+                <li><a href="https://github.com/opspresso/romty" target="_blank">GitHub 저장소</a></li>
+                <li>기술 스택: Go, PTY, TUI (macOS, Linux)</li>
+            </ul>
+        </div>
+
+        <div>
+            <h3><span class="project-title">Agent Studio</span></h3>
+            <p class="project-duration"><em>2026.07 - 현재</em> | <a href="https://studio.opspresso.com" target="_blank">studio.opspresso.com</a></p>
+            <p>프로덕션 AI 에이전트를 만들고 운영하는 플랫폼입니다. 프롬프트와 에이전트를 버전 관리되는 프로젝트로 작성한 뒤 콘솔, OpenAI 호환 API, Slack, 웹훅으로 서빙합니다.</p>
+            <ul>
+                <li><strong>에이전트 루프</strong>: 턴 예산 기반 멀티턴 도구 사용, 온디맨드 스킬 로딩, 서브에이전트 위임</li>
+                <li><strong>MCP 통합</strong>: MCP 도구 연동 및 스킬/플러그인 확장 구조</li>
+                <li><strong>운영 가시성</strong>: 실시간 트레이스, 평가(evaluation), 호출별 비용 추적 및 지출 한도</li>
+                <li>기술 스택: TypeScript, MCP, OpenAI 호환 API</li>
+            </ul>
+        </div>
+
+        <div>
             <h3><span class="project-title">VibeMon</span></h3>
             <p class="project-duration"><em>2026.01 - 현재</em> | <a href="https://vibemon.io/" target="_blank">vibemon.io</a></p>
-            <p>픽셀 아트 캐릭터로 AI 어시스턴트의 실시간 상태를 시각화하는 모니터링 시스템. Claude Code, Kiro, OpenClaw 등 AI 코딩 도구의 작업 상태(thinking, working, idle 등)를 ESP32 하드웨어 디스플레이와 Electron 데스크톱 앱으로 한눈에 확인할 수 있습니다.</p>
+            <p>픽셀 아트 캐릭터로 AI 어시스턴트의 실시간 상태를 시각화하는 모니터링 시스템. Claude Code, Codex, Kiro, OpenClaw 등 AI 코딩 도구의 작업 상태(thinking, working, idle 등)를 ESP32 하드웨어 디스플레이와 Electron 데스크톱 앱으로 한눈에 확인할 수 있습니다.</p>
             <ul>
                 <li><strong>ESP32 하드웨어</strong>: 172×320 LCD에 픽셀 아트 캐릭터로 AI 상태 시각화, WiFi 자동 설정 지원</li>
                 <li><strong>Electron 데스크톱 앱</strong>: 시스템 트레이 연동, 멀티 윈도우 지원, npm 패키지(<code>vibemon</code>)로 배포</li>
@@ -453,7 +478,7 @@
 
         <div>
             <h3><span class="project-title">토스트 (Toast)</span></h3>
-            <p class="project-duration"><em>2025.04 - 현재</em> | <a href="http://app.toast.sh/" target="_blank">app.toast.sh</a></p>
+            <p class="project-duration"><em>2025.04 - 현재</em> | <a href="https://toastapp.dev" target="_blank">toastapp.dev</a></p>
             <p>토스트로 더 빠르게 작업하세요: 자주 사용하는 앱, 웹사이트, 파일을 단 하나의 단축키로 실행하여 생산성을 높여보세요.</p>
             <ul>
                 <li><strong>핵심 기능</strong>: 간단하고 직관적인 인터페이스와 강력한 기능을 제공합니다.</li>
@@ -476,9 +501,9 @@
         </div>
 
         <div>
-            <h3><span class="project-title">옵스프레소 (Opspresso)</span></h3>
+            <h3><span class="project-title">옵스프레소 (OpsPresso)</span></h3>
             <p class="project-duration"><em>2019.09 - 현재</em> | <a href="https://opspresso.com" target="_blank">opspresso.com</a></p>
-            <p>"Brewing DevOps Excellence with Automation"이라는 모토로 DevOps 자동화 도구 및 베스트 프랙티스를 개발 및 공유하는 프로젝트입니다.</p>
+            <p>IaC, GitOps, DevOps, SRE, AI 영역의 개발자 도구를 만드는 프로젝트입니다. Toast, VibeMon, Agent Studio, romty 네 개의 제품과 DevOps 자동화 도구를 개발하고 공유합니다.</p>
             <ul>
                 <li><a href="https://github.com/opspresso" target="_blank">GitHub 조직</a></li>
                 <li>도커 이미지 빌드/배포 자동화</li>
