@@ -182,7 +182,7 @@ TUI를 닫아도 셸 세션이 살아있는 터미널 워크스페이스 매니�
 
 ### Agent Studio
 
-*2026.07 - 현재* | [studio.opspresso.com](https://studio.opspresso.com)
+*2026.07 - 현재* | [studio.agrt.dev](https://studio.agrt.dev)
 
 프로덕션 AI 에이전트를 만들고 운영하는 플랫폼입니다. 프롬프트와 에이전트를 버전 관리되는 프로젝트로 작성한 뒤 콘솔, OpenAI 호환 API, Slack, 웹훅으로 서빙합니다.
 
