@@ -1,6 +1,6 @@
 # 유정열 (nalbam)
 
-**AWS AI Hero & Senior DevOps/SRE Engineer**
+**Agent Platform Engineer / AWS AI Hero**
 
 [GitHub](https://github.com/nalbam) · [LinkedIn](https://linkedin.com/in/nalbam/) · [Twitter](https://twitter.com/nalbam) · [Facebook](https://facebook.com/nalbam) · [Instagram](https://instagram.com/nalbam/) · [YouTube](https://youtube.com/user/nalbam)
 
@@ -10,20 +10,23 @@
 
 ## 👨‍💻 전문 요약 (Professional Summary)
 
-**AWS AI Hero**로 선정된 **DevOps/SRE 8년 경력**의 인프라 전문가이자, **15년 이상의 백엔드 개발 경험**을 보유한 풀스택 엔지니어입니다. 백엔드 개발자로 시작하여 대규모 서비스 개발 및 운영 경험을 쌓은 후, DevOps/SRE 영역으로 전환하여 AWS 클라우드 인프라 설계, 구축 및 자동화 분야에서 깊은 전문성을 발휘하고 있습니다.
+**Agent Platform Engineer / AWS AI Hero:** 백엔드 개발과 DevOps/SRE 경험을 바탕으로 AI 에이전트의 개발과 운영을 지원하는 플랫폼을 만듭니다.
 
-**DevOps/SRE 전문성:** Kubernetes 멀티 클러스터 환경 관리, CI/CD 파이프라인 구축, 모니터링 및 자동화 시스템 설계에 특화되어 있으며, 현재 당근마켓에서 대규모 트래픽을 처리하는 안정적인 인프라 운영을 담당하고 있습니다.
+**에이전트 플랫폼 개발:** 개인 프로젝트인 Agent Studio에서 에이전트 실행, MCP 도구 연동, 스킬·플러그인 확장, 평가와 비용 추적을 다룹니다. VibeMon에서는 AI 코딩 에이전트의 작업 상태를 시각화합니다.
 
-**백엔드 개발 경험:** Java, Spring 기반의 엔터프라이즈 애플리케이션부터 Node.js, PHP를 활용한 웹 서비스까지 다양한 기술 스택으로 서비스를 개발해왔으며, 이러한 개발 경험이 현재 DevOps/SRE 업무에서 개발팀과의 원활한 소통과 효율적인 인프라 설계의 기반이 되고 있습니다.
+**백엔드·SRE 경험:** Java, Spring, Node.js 등을 활용한 서비스 개발과 AWS, Kubernetes 기반 인프라 운영을 경험했습니다. 당근마켓에서는 멀티 클러스터 관리, 배포 자동화, 모니터링과 장애 대응을 담당했습니다. 이 경험을 에이전트 플랫폼의 신뢰성과 개발자 경험을 개선하는 데 활용합니다.
 
 ---
 
 ## 🛠️ 핵심 기술 (Key Skills)
 
-**DevOps/SRE 핵심 기술 (8년 경력)**
+**에이전트 플랫폼**
+에이전트 런타임 · MCP · 스킬/플러그인 · 평가(Evaluation) · 트레이싱 · 비용 추적
+
+**클라우드 인프라 & SRE**
 AWS · Kubernetes · Terraform · Docker · CI/CD · Monitoring · IaC · System Reliability
 
-**백엔드 개발 기술 (15년+ 경력)**
+**백엔드 개발**
 Java · Spring · Node.js · PHP · Python
 
 **데이터베이스**
@@ -33,11 +36,15 @@ MySQL/MariaDB · Oracle · MongoDB · Redis
 Git · Jenkins · ELK Stack
 
 **AI & ML**
-AWS Bedrock · AWS DeepRacer
+Amazon Bedrock · AWS DeepRacer
 
 ---
 
 ## 💼 경력 사항 (Professional Experience)
+
+### 클러쉬 (Clush) | Agent Platform Engineer
+
+*2026.09 - 현재* | [www.clush.ai](https://www.clush.ai/)
 
 ### 당근마켓 | DevOps Engineer / SRE
 
@@ -168,6 +175,17 @@ AWS Bedrock · AWS DeepRacer
 
 ## 🚀 개인 프로젝트 (Personal Projects)
 
+### Agent Studio
+
+*2026.07 - 현재* | [studio.agrt.dev](https://studio.agrt.dev)
+
+프로덕션 AI 에이전트를 만들고 운영하는 플랫폼입니다. 프롬프트와 에이전트를 버전 관리되는 프로젝트로 작성한 뒤 콘솔, OpenAI 호환 API, Slack, 웹훅으로 서빙합니다.
+
+- **에이전트 루프**: 턴 예산 기반 멀티턴 도구 사용, 온디맨드 스킬 로딩, 서브에이전트 위임
+- **MCP 통합**: MCP 도구 연동 및 스킬/플러그인 확장 구조
+- **운영 가시성**: 실시간 트레이스, 평가(evaluation), 호출별 비용 추적 및 지출 한도
+- 기술 스택: TypeScript, MCP, OpenAI 호환 API
+
 ### romty
 
 *2026.08 - 현재* | [romty.dev](https://romty.dev)
@@ -179,17 +197,6 @@ TUI를 닫아도 셸 세션이 살아있는 터미널 워크스페이스 매니�
 - **IME 독립 조작**: 입력기 상태와 무관한 펑션키 기반 인터페이스, 마우스 선택은 호스트 터미널에 위임
 - [GitHub 저장소](https://github.com/opspresso/romty)
 - 기술 스택: Go, PTY, TUI (macOS, Linux)
-
-### Agent Studio
-
-*2026.07 - 현재* | [studio.agrt.dev](https://studio.agrt.dev)
-
-프로덕션 AI 에이전트를 만들고 운영하는 플랫폼입니다. 프롬프트와 에이전트를 버전 관리되는 프로젝트로 작성한 뒤 콘솔, OpenAI 호환 API, Slack, 웹훅으로 서빙합니다.
-
-- **에이전트 루프**: 턴 예산 기반 멀티턴 도구 사용, 온디맨드 스킬 로딩, 서브에이전트 위임
-- **MCP 통합**: MCP 도구 연동 및 스킬/플러그인 확장 구조
-- **운영 가시성**: 실시간 트레이스, 평가(evaluation), 호출별 비용 추적 및 지출 한도
-- 기술 스택: TypeScript, MCP, OpenAI 호환 API
 
 ### VibeMon
 
