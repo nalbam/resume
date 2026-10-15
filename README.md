@@ -1,6 +1,6 @@
 # 유정열 (nalbam) - 이력서
 
-AWS AI Hero & Senior DevOps/SRE Engineer 유정열입니다.
+**Agent Platform Engineer / AWS AI Hero** 유정열입니다.
 
 자세한 이력은 아래 링크에서 확인하실 수 있습니다:
 
@@ -10,8 +10,13 @@ AWS AI Hero & Senior DevOps/SRE Engineer 유정열입니다.
 
 ## 👨‍💻 간략 소개
 
-AWS 클라우드 인프라 설계, 구축 및 자동화, Kubernetes 기반 DevOps 파이프라인 구축 및 대규모 시스템 운영 전문가입니다. AWS AI Hero 및 AWS DeepRacer Championship 파이널리스트 경험을 통해 클라우드 및 AI 분야 지식을 적극적으로 공유하고 있습니다.
+백엔드 개발과 DevOps/SRE 경험을 바탕으로 AI 에이전트의 개발과 운영을 지원하는 플랫폼을 만듭니다. Agent Studio와 VibeMon 등 개인 프로젝트에서 에이전트 실행, 도구 연동, 평가, 모니터링을 다루고 있습니다. AWS AI Hero로서 클라우드와 AI 분야의 경험을 커뮤니티에 공유합니다.
 
 ---
 
-이 GitHub 저장소는 저의 이력서를 웹사이트 형태로 제공하기 위한 파일들을 포함하고 있습니다. 웹사이트의 내용은 `docs/index.html` 파일에서 관리됩니다.
+이 저장소는 웹 이력서와 Markdown 이력서를 함께 관리합니다.
+
+- [`docs/index.html`](docs/index.html): `resume.nalbam.com`에 게시되는 웹 이력서
+- [`RESUME.md`](RESUME.md): 같은 경력과 프로젝트를 정리한 Markdown 이력서
+
+내용을 수정할 때 두 파일의 직무, 소속, 기간과 설명을 함께 갱신합니다.
