@@ -10,7 +10,7 @@
 
 ## 👨‍💻 간략 소개
 
-백엔드 개발과 DevOps/SRE 경험을 바탕으로 AI 에이전트의 개발과 운영을 지원하는 플랫폼을 만듭니다. Agent Studio와 VibeMon 등 개인 프로젝트에서 에이전트 실행, 도구 연동, 평가, 모니터링을 다루고 있습니다. AWS AI Hero로서 클라우드와 AI 분야의 경험을 커뮤니티에 공유합니다.
+백엔드 개발과 DevOps/SRE 경험을 바탕으로 AI 에이전트의 개발과 운영을 지원하는 플랫폼을 만듭니다. 개인 프로젝트인 OpsPresso Agent Platform에서 Studio, Models, Memory, Knowledge, Forge, Delivery 여섯 서비스를 연결해 에이전트 실행부터 앱 개발·배포까지 다루고 있습니다. AWS AI Hero로서 클라우드와 AI 분야의 경험을 커뮤니티에 공유합니다.
 
 ---
 

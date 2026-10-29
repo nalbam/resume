@@ -12,7 +12,7 @@
 
 **Agent Platform Engineer / AWS AI Hero:** 백엔드 개발과 DevOps/SRE 경험을 바탕으로 AI 에이전트의 개발과 운영을 지원하는 플랫폼을 만듭니다.
 
-**에이전트 플랫폼 개발:** 개인 프로젝트인 Agent Studio에서 에이전트 실행, MCP 도구 연동, 스킬·플러그인 확장, 평가와 비용 추적을 다룹니다. VibeMon에서는 AI 코딩 에이전트의 작업 상태를 시각화합니다.
+**에이전트 플랫폼 개발:** 개인 프로젝트인 OpsPresso Agent Platform에서 에이전트 오케스트레이션, 모델 라우팅, 장기 기억, 근거 검색, 격리 개발 환경과 앱 배포를 독립 서비스로 개발합니다. Studio의 대화에서 Forge의 코드 작성, Delivery의 빌드·배포·운영으로 이어지는 흐름을 구성합니다.
 
 **백엔드·SRE 경험:** Java, Spring, Node.js 등을 활용한 서비스 개발과 AWS, Kubernetes 기반 인프라 운영을 경험했습니다. 당근마켓에서는 멀티 클러스터 관리, 배포 자동화, 모니터링과 장애 대응을 담당했습니다. 이 경험을 에이전트 플랫폼의 신뢰성과 개발자 경험을 개선하는 데 활용합니다.
 
@@ -21,7 +21,7 @@
 ## 🛠️ 핵심 기술 (Key Skills)
 
 **에이전트 플랫폼**
-에이전트 런타임 · MCP · 스킬/플러그인 · 평가(Evaluation) · 트레이싱 · 비용 추적
+에이전트 오케스트레이션 · MCP · OIDC · 모델 라우팅 · 장기 기억 · RAG · 격리 실행 · 스킬/플러그인 · 트레이싱 · 비용 추적
 
 **클라우드 인프라 & SRE**
 AWS · Kubernetes · Terraform · Docker · CI/CD · Monitoring · IaC · System Reliability
@@ -175,16 +175,24 @@ Amazon Bedrock · AWS DeepRacer
 
 ## 🚀 개인 프로젝트 (Personal Projects)
 
-### Agent Studio
+### Agent Platform (OpsPresso)
 
-*2026.07 - 현재* | [studio.agrt.dev](https://studio.agrt.dev)
+*2026.07 - 현재* | [플랫폼 소개](https://opspresso.com/#platform) | [Agent Studio](https://studio.agrt.dev)
 
-프로덕션 AI 에이전트를 만들고 운영하는 플랫폼입니다. 프롬프트와 에이전트를 버전 관리되는 프로젝트로 작성한 뒤 콘솔, OpenAI 호환 API, Slack, 웹훅으로 서빙합니다.
+AI 에이전트가 대화에서 기획·개발·배포까지 진행하도록 연결하는 개인 프로젝트입니다. Studio, Models, Memory, Knowledge, Forge, Delivery 여섯 서비스가 각자의 설정·데이터·권한·콘솔을 소유합니다.
 
-- **에이전트 루프**: 턴 예산 기반 멀티턴 도구 사용, 온디맨드 스킬 로딩, 서브에이전트 위임
-- **MCP 통합**: MCP 도구 연동 및 스킬/플러그인 확장 구조
-- **운영 가시성**: 실시간 트레이스, 평가(evaluation), 호출별 비용 추적 및 지출 한도
-- 기술 스택: TypeScript, MCP, OpenAI 호환 API
+- **Agent Studio**: 에이전트 구성과 실행, MCP 도구·스킬·서브에이전트, 도구 승인·트레이스·지출 한도, 서비스 OIDC 신원 제공
+- **Agent Models**: 공급자 연결과 모델 사용 승인, 요청 라우팅, 모델·사용자·Agent·서비스별 사용량·비용 관리
+- **Agent Memory**: 규칙·선호·결정·경험의 장기 기억, 범위별 공유와 버전 관리, Claude Code·Codex와 세션 간 작업 인계
+- **Agent Knowledge**: 문서·녹음 수집, 전사·회의록, 원문 근거 검색(RAG), 지식 그래프와 온톨로지
+- **Agent Forge**: 영속 Workspace와 격리 Sandbox, 코딩 CLI 세션, 실행 프로필·GitHub 연결·보호 Git 작업 승인
+- **Agent Delivery**: application.yaml 적용, 앱 리소스·시크릿 전달, Argo Workflows 기반 빌드·테스트, GitOps 배포·환경 승격·롤백
+- **공통 계약과 확장**: agent-platform에서 아키텍처·서비스 계약·인수 시나리오·공통 CI를 관리하고, agent-plugins에서 스킬과 MCP 선언을 관리
+
+Studio는 Memory·Knowledge·Forge·Delivery의 MCP 도구로 작업을 요청하고, 각 서비스가 실행과 승인을 관리합니다. 모델 호출은 Models가 담당합니다.
+
+- [앱 개발·배포 흐름](https://opspresso.com/#workflow) | [공개 스킬·플러그인](https://github.com/opspresso/agent-plugins)
+- 기술 스택: TypeScript, Node.js, Next.js, PostgreSQL, MCP, OIDC, Docker, Kubernetes, Argo Workflows, Argo CD, Terraform, AWS
 
 ### romty
 
@@ -248,7 +256,7 @@ AWS 콘솔 네비게이션 바에 리전별 색상 그라디언트와 국기 아
 
 *2019.09 - 현재* | [opspresso.com](https://opspresso.com)
 
-IaC, GitOps, DevOps, SRE, AI 영역의 개발자 도구를 만드는 프로젝트입니다. Toast, VibeMon, Agent Studio, romty 네 개의 제품과 DevOps 자동화 도구를 개발하고 공유합니다.
+AI 에이전트 플랫폼과 개발자 도구를 만드는 독립 개인 프로젝트입니다. Agent Platform의 여섯 서비스와 VibeMon, romty, Toast를 개발하고, IaC·GitOps·DevOps·SRE 경험을 제품과 운영에 적용합니다.
 
 - [GitHub 조직](https://github.com/opspresso)
 - 도커 이미지 빌드/배포 자동화
